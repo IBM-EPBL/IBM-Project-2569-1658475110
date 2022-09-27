@@ -1,0 +1,17 @@
+import random
+import time
+
+def checktime(temperature):
+   if temperature>70:
+      print("temperature is high")
+      
+temp = random.randint(-40,100)
+humid = random.randint(0,100)
+
+while true:
+temp = random.randint(-40,100)
+humid = random.randint(0,100)
+print("temperature = "+str(temp))
+print("humidity = "+str(humid))
+checktemp(temp)
+time.sleep(1)
